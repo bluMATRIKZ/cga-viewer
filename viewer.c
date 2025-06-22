@@ -63,7 +63,7 @@ int parse_file(const char* filename, char lines[MAX_LINES][MAX_LINE_LENGTH], int
 
 int main(int argc, char* argv[]) {
     if (argc != 2) {
-        printf("Input file needed\n", argv[0]);
+        printf("Input file needed\n");
         return 1;
     }
 
